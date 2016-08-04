@@ -1,1 +1,4 @@
 node_modules
+webpack.config.js
+src/client.min.js
+src/index.html
