@@ -17,13 +17,35 @@ const daniels = new Daniels();
 const VDOT = daniels.getVDOT("5k", "16:00");
 console.log(VDOT);
 
+//NB - distance must be one of the following
+        "VDOT",
+        "1500",
+        "Mile",
+        "3k",
+        "2-mile",
+        "5k",
+        "8k",
+        "5-mile",
+        "10k",
+        "15k",
+        "10-mile",
+        "20k",
+        "1/2 Marathon",
+        "25k",
+        "30k",
+        "Marathon"
+
 //STEP 2 - Get equivalent race times
 const raceTimes = daniels.getRaceTimes(VDOT);
 console.log(raceTimes);
 
+//NB - will return object with keys of races and values as times
+
 //STEP 3 - Get training paces
 const trainingZones = daniels.returnTrainingPaces(VDOT);
 console.log(trainingZones);
+
+//NB - will return object with keys of pace type and values as pace value
 ```
 
 
