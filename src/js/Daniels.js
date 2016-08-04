@@ -1,7 +1,7 @@
 
 //get vdots and intensities
-import intensities from "./intensities.js";
-import vdots from "./vdots.js";
+const intensities = require("./intensities.js");
+const vdots = require("./vdots.js");
 
 class Daniels {
 	//initialises class with vdot and intensity arrays

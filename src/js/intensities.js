@@ -1,4 +1,4 @@
-export default [
+module.exports = [
     [
         "VDOT",
         "E/L Pace km",
