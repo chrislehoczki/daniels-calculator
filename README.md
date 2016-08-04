@@ -11,7 +11,7 @@ By giving a recent race time, you calculate a VDOT, this VDOT then allows you to
 ```javascript
 const Daniels = require("daniels-calculator");
 
-daniels = new Daniels();
+const daniels = new Daniels();
 
 //STEP 1 - Get vdot
 const VDOT = daniels.getVDOT("5k", "16:00");
