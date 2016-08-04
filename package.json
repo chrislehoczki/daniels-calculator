@@ -1,6 +1,6 @@
 {
   "name": "daniels-calculator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A module that will allow you to input a recent race time, get a VDOT estimation and return equivalent race times and training paces",
   "main": "./src/js/Daniels.js",
   "author": "Chris Phillips",
