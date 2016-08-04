@@ -1,12 +1,12 @@
 {
   "name": "daniels-calculator",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "description": "A module that will allow you to input a recent race time, get a VDOT estimation and return equivalent race times and training paces",
   "scripts": {
   	"build": "webpack --production --optimize-minimize",
     "prod": "webpack-dev-server --content-base src --inline --hot"
   },
-  "main": "webpack.config.js",
+  "main": "./src/js/Daniels.js",
   "dependencies": {
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
