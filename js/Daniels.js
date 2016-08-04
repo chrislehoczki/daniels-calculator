@@ -47,7 +47,7 @@ class Daniels {
 			return (+timeArr[0] * 60) + +timeArr[1];
 		}
 		else if (length === 3) {
-			return (+timeArr[0] * 60 * 60) + (+timeArr[0] * 60) + +timeArr[1];
+			return (+timeArr[0] * 60 * 60) + (+timeArr[1] * 60) + +timeArr[2];
 		}
 
 		//return undefined if correct format is not given 
