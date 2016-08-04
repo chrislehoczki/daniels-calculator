@@ -8,6 +8,7 @@ Jack Daniels is a famous running coach and used a scientific method to help runn
 By giving a recent race time, you calculate a VDOT, this VDOT then allows you to get estimated race times and work out your training paces.
 
 ## Usage
+```javascript
 const Daniels = require("daniels-calculator");
 
 daniels = new Daniels();
@@ -23,6 +24,8 @@ console.log(raceTimes);
 //STEP 3 - Get training paces
 const trainingZones = daniels.returnTrainingPaces(VDOT);
 console.log(trainingZones);
+```
+
 
 
 ## Further Info
