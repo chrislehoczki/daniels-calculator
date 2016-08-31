@@ -88,6 +88,10 @@ class Daniels {
 			return +arr[0] === +VDOT;
 		})[0];
 
+		if (!values) {
+			throw new RangeError('VDOT should be between 30 and 85');
+		}
+
 		//create object to return
 		let timesObj = {};
 		
@@ -112,6 +116,10 @@ class Daniels {
 		const values = this.intensities.filter(function(arr) {
 			return +arr[0] === +VDOT;
 		})[0];
+
+		if (!values) {
+			throw new RangeError('VDOT should be between 30 and 85');
+		}
 
 		//create object
 		let paceObj = {};

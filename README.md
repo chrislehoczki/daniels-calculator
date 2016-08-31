@@ -6,6 +6,7 @@
 
 Jack Daniels is a famous running coach and used a scientific method to help runners improve their times.
 By giving a recent race time, you calculate a VDOT, this VDOT then allows you to get estimated race times and work out your training paces.
+Feedback is very much welcome alongside requests for further features.
 
 ## Usage
 ```javascript
@@ -34,6 +35,9 @@ console.log(VDOT);
         "25k",
         "30k",
         "Marathon"
+
+//NB - Times should be in the following formats: 00 / 00:00 / 00:00:00
+	
 
 //STEP 2 - Get equivalent race times
 const raceTimes = daniels.getRaceTimes(VDOT);
